@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bearprotein</title>
+	<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+	<!-- <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<a name="top"></a>
+	<!-- header start -->
+	<header class="header">
+		<div class="header-top">
+			<div class="wrapper">
+				<nav class="header-nav left-header-nav">
+					<a href="#">О магазине</a>
+					<a href="#">Доставка и оплата</a>
+					<a href="#">Консультации</a>
+				</nav>
+				<div class="logo">
+					<a href="#"><img src="img/logo.png" alt=""></a>
+				</div>
+				<nav class="header-nav right-header-nav">
+					<a href="#">Новости</a>
+					<a href="#">База знаний</a>
+					<a href="#">Контакты</a>
+				</nav>
+				<div class="basket" id="basket"><span class="basket-qty">2</span>1234.00 P</div>
+				<div class="basket-review" style="display: none">
+					<p class="basket-header">В корзину добавлено <span class="count">2</span> товара</p>
+					<div class="basket-product">
+						<img src="img/basket-product.png" alt="" class="product-image">
+						<div class="product-desc">
+							<p class="name">100% Whey Gold Standard</p>
+							<p class="weight">Масса: <span class="red">2270 гр.</span></p>
+							<p class="quantity">Количество: <span class="red">01</span></p>
+							<span class="price">617.00 P</span>
+							<img src="img/basket-produc-deletet.png" alt="" class="del">
+						</div>
+					</div>
+					<div class="basket-product">
+						<img src="img/basket-product.png" alt="" class="product-image">
+						<div class="product-desc">
+							<p class="name">100% Whey Gold Standard</p>
+							<p class="weight">Масса: <span class="red">2270 гр.</span></p>
+							<p class="quantity">Количество: <span class="red">01</span></p>
+							<span class="price">617.00 P</span>
+						</div>
+					</div>
+					<div class="basket-sum">
+						<span class="payable">Сумма к оплате:</span>
+						<span class="total-price">1234.00 p</span>
+					</div>
+					<div class="basket-footer">
+						<div class="button-pay">Перейти к оплате</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="wrapper">
+				<p class="header-text">Народный магазин <span>спортивного питания</span></p>
+				<p class="phone-1">206-256 <span class="place">(ТРЦ "Сургут Сити Молл")</span></p>
+				<p class="phone-2">935-808 <span class="place">(ТРЦ "АУРА")</span></p>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+	<!-- main-menu start -->
+	<div class="main-menu">
+		<div class="wrapper">
+			<ul class="menu">
+				<li><a href="#" id="menu-catalog">Каталог товаров</a>
+					<ul class="sub-menu-catalog" style="display: none">
+						<li><a href="#">Протеины</a></li>
+						<li><a href="#">Креатин</a></li>
+						<li><a href="#">Омега и жирные кислоты</a></li>
+						<li><a href="#">Спортивные напитки</a></li>
+						<li><a href="#">Десерты</a></li>
+						<li><a href="#">Гейнеры</a></li>
+						<li><a href="#">Жиросжигатели</a></li>
+						<li><a href="#">Связки и суставы</a></li>
+						<li><a href="#">Анаболические комплексы</a></li>
+						<li><a href="#">Пробники</a></li>
+						<li><a href="#">Аминокислоты и BCAA</a></li>
+						<li><a href="#">Витаминно-минеральные комплексы</a></li>
+						<li><a href="#">Предтренировочные комплексы</a></li>
+						<li><a href="#">Восстановители</a></li>
+					</ul>
+				</li>
+				<li><a href="#" id="menu-goal">Ваша цель</a>
+					<ul class="sub-menu-goal" style="display: none">
+						<li><a href="#">Похудение</a></li>
+						<li><a href="#">Энергия и выносливость</a></li>
+						<li><a href="#">Набор мышечной массы</a></li>
+						<li><a href="#">Долголетие</a></li>
+						<li><a href="#">Повышение выносливости</a></li>
+						<li><a href="#">Здоровье суставов и костей</a></li>
+						<li><a href="#">Увеличение силы</a></li>
+						<li><a href="#">Улучшение тренировок</a></li>
+						<div class="goal-footer">
+							<a href="#" class="male">Мужчинам</a>
+							<a href="#" class="female">Женщинам</a>
+							<span class="goal-age">Цель по возрасту:</span>
+							<a href="#" class="group group-1">до 20 лет</a>
+							<a href="#" class="group group-2">21-30 лет</a>
+							<a href="#" class="group group-3">31-50 лет</a>
+							<a href="#" class="group group-4">50 лет и больше</a>
+						</div>
+					</ul>
+				</li>
+				<li><a href="#" id="menu-brands">Бренды</a>
+					<ul class="sub-menu-brands" style="display: none">
+						<li><a href="#">Activlab</a></li>
+						<li><a href="#">Some brand</a></li>
+						<li><a href="#">APS nutrition</a></li>
+						<li><a href="#">aTech Nutrition</a></li>
+						<li><a href="#">Be First</a></li>
+						<li><a href="#">Betancourt Nutrition</a></li>
+						<li><a href="#">Blender Bottle</a></li>
+						<li><a href="#">BODYBUILDING SHOP</a></li>
+						<li><a href="#">BSN</a></li>
+						<li><a href="#">Cellucor</a></li>
+						<li><a href="#">CHIBA</a></li>
+						<li><a href="#">Cloma Pharma</a></li>
+						<li><a href="#">CytoSport</a></li>
+						<li><a href="#">Dymatize Nutrition</a></li>
+						<li><a href="#">Gaspari Nutrition</a></li>
+						<li><a href="#">GeneticLab</a></li>
+						<li><a href="#">Gold Star</a></li>
+						<li><a href="#">Gorilla Wear</a></li>
+						<li><a href="#">Grenade</a></li>
+						<li><a href="#">Hi-Tech Pharmaceuticals</a></li>
+						<li><a href="#">Inner Armour</a></li>
+						<li><a href="#">Innovative Labs</a></li>
+						<li><a href="#">Insane Labz</a></li>
+						<li><a href="#">Ironman</a></li>
+						<li><a href="#">Jonathan Smith CO</a></li>
+						<li><a href="#">Kevin Levrone</a></li>
+						<li><a href="#">KFD Nutrition</a></li>
+						<li><a href="#">Lady Fitness</a></li>
+						<li><a href="#">Mad Max</a></li>
+						<li><a href="#">Maximal Nutrition</a></li>
+						<li><a href="#">Maxler</a></li>
+						<li><a href="#">Mex Nutrition</a></li>
+						<li><a href="#">MHP</a></li>
+						<li><a href="#">Mr. Djemius ZERO</a></li>
+						<li><a href="#">Muscle Care</a></li>
+						<li><a href="#">MusclePharm</a></li>
+						<li><a href="#">MuscleTech</a></li>
+						<li><a href="#">Muscular Development</a></li>
+						<li><a href="#">Mutant</a></li>
+						<li><a href="#">My Protein</a></li>
+						<li><a href="#">Natrol</a></li>
+						<li><a href="#">NOW</a></li>
+						<li><a href="#">Nutrend</a></li>
+						<li><a href="#">Nutrex</a></li>
+						<li><a href="#">Olimp</a></li>
+						<li><a href="#">Optimum Nutrition</a></li>
+						<li><a href="#">OstroVit</a></li>
+						<li><a href="#">Power Pro</a></li>
+						<li><a href="#">Power System</a></li>
+						<li><a href="#">Pure Protein</a></li>
+						<li><a href="#">Quest Nutrition</a></li>
+						<li><a href="#">R-Line</a></li>
+						<li><a href="#">Real Pharm</a></li>
+						<li><a href="#">Ronnie Coleman</a></li>
+						<li><a href="#">RPS</a></li>
+						<li><a href="#">Syntrax</a></li>
+						<li><a href="#">Twinlab</a></li>
+						<li><a href="#">Universal Nutrition</a></li>
+						<li><a href="#">Weider</a></li>
+						<li><a href="#">XXI Power</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Команда</a></li>
+				<li><a href="#">Фото</a></li>
+				<li><a href="#">Видео</a></li>
+			</ul>
+			<form action="search">
+				<button type="submit" class="search-btn">
+					<img src="img/search.png" alt="">
+				</button>
+				<input type="text" class="search-input">
+			</form>
+		</div>
+	</div>
+	<!-- main-menu end -->
+	<!-- slider start -->
+	<div class="slider">
+		<div class="owl-carousel">
+			<div>
+				<img src="img/slide-1.jpg" alt="">
+				<div class="slide-1-button">Посмотреть товары</div>
+			</div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- slider end -->
+	<!-- advantages start -->
+	<div class="advantages">
+		<div class="wrapper">
+			<div class="adv adv-1">
+				<p>Бесплатная доставка по России</p><br><span>при заказе на сумму 199$ и больше</span>
+			</div>
+			<div class="adv adv-2">
+				<p>Возврат или обмен товара</p><br><span>в течение 14 дней после покупки</span>
+			</div>
+			<div class="adv adv-3">
+				<p>Круглосуточная поддержка</p><br><span>мы проконсультируем вас после покупки</span>
+			</div>
+		</div>
+	</div>
+	<!-- advantages end -->
+	<!-- goal start -->
+	<div class="goal">
+		<h3>Ваша цель</h3>
+		<div class="wrapper">
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-1.png" alt="" class="goal-image">
+					<div class="goal-text">Похудение</div>
+				</a>
+			</div>
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-2.png" alt="" class="goal-image">
+					<div class="goal-text">Набор мышечной массы</div>
+				</a>
+			</div>
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-3.png" alt="" class="goal-image">
+					<div class="goal-text">Повышение выносливости</div>
+				</a>
+			</div>
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-4.png" alt="" class="goal-image">
+					<div class="goal-text">Увеличение силы</div>
+				</a>
+			</div>
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-5.png" alt="" class="goal-image">
+					<div class="goal-text">Развитие скорости</div>
+				</a>
+			</div>
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-6.png" alt="" class="goal-image">
+					<div class="goal-text">Долголетие</div>
+				</a>
+			</div>
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-7.png" alt="" class="goal-image">
+					<div class="goal-text">Здоровье костей и суставов</div>
+				</a>
+			</div>
+			<div class="goal-item">
+				<a href="#">
+					<img src="img/goal-8.png" alt="" class="goal-image">
+					<div class="goal-text">Улучшение тренировок</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- goal end -->
+	<!-- catalog start -->
+	<div class="catalog">
+		<h3>Каталог товаров</h3>
+		<div class="wrapper">
+			<div class="tabs">
+				<input id="tab1" type="radio" name="tabs" checked>
+				<label for="tab1">Все</label>
+				<input id="tab2" type="radio" name="tabs">
+				<label for="tab2">Новинки</label>
+				<input id="tab3" type="radio" name="tabs">
+				<label for="tab3">Популярные</label>
+				<input id="tab4" type="radio" name="tabs">
+				<label for="tab4">Акционные</label>
+			</div>
+			<div class="section content-1">
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/product.png" alt="" class="product-image">
+					<div class="product-content">
+						<h4 class="product-header">RPS Nutrition Casein</h4>
+						<p class="product-desc">Основной компонент молочного белка и большинства современных протеинов.</p>
+						<img src="img/product-stars.png" alt="" class="stars">
+						<a href="#" class="recalls">2 Отзыва</a>
+						<a href="#" class="recall-add">Добавить свой отзыв</a>
+						<div class="button-add">В корзину</div>
+						<span class="price">1234.00 руб.</span>
+						<span class="available">В наличии</span>
+					</div>
+					<div class="product-footer">
+						<div class="icon compare"></div>
+						<div class="icon share">
+							<div class="catalog-social" style="display: none">
+							<a href="#" class="social-icon vk"></a>
+							<a href="#" class="social-icon fb"></a>
+							<a href="#" class="social-icon inst"></a>
+						</div>
+						</div>
+						<div class="icon like"></div>
+					</div>
+				</div>
+			</div>
+			<div class="section content-2">
+
+			</div>
+			<div class="section content-3">
+
+			</div>
+			<div class="section content-4">
+
+			</div>
+		</div>
+		<div class="paginator">
+			<h4>Перейти в каталог</h4>
+			<div class="paginator-box">
+				<div class="page page-prew">&lt;</div>
+				<div class="page page-1">1</div>
+				<div class="page page-2">2</div>
+				<div class="page page-3">3</div>
+				<div class="page page-4">4</div>
+				<div class="page page-5">5</div>
+				<div class="page page-next">&gt;</div>
+			</div>
+		</div>
+	</div>
+	<!-- catalog end -->
+	<!-- banner start -->
+	<div class="banner">
+		<div class="banner-left">
+			<img src="img/banner-1.jpg" alt="">
+			<div class="banner-button">Подробнее</div>
+		</div>
+		<div class="banner-right">
+			<img src="img/banner-2.jpg" alt="">
+			<div class="banner-button">Подробнее</div>
+		</div>
+	</div>
+	<!-- banner end -->
+	<!-- offers start -->
+	<div class="offers">
+		<h2>Специальное <span>предложение</span></h2>
+		<div class="wrapper">
+			<div class="offer-item">
+				<div class="product-content">
+					<h4 class="product-header">Незаменимые аминокислоты Ultimate Nutrition Amino 2002</h4>
+					<span class="price-old">2 890 Р</span>
+					<span class="price-new">2 000 Р</span>
+					<div class="button-add">В корзину</div>
+					<p class="product-desc">Содержит только натуральные аминокислоты из 100% сывороточного протеина.</p>
+				</div>
+				<img src="img/product-2.png" alt="" class="product-image">
+				<div class="product-footer">
+					<div class="icon compare"></div>
+					<div class="icon share">
+						<div class="catalog-social" style="display: none">
+						<a href="#" class="social-icon vk"></a>
+						<a href="#" class="social-icon fb"></a>
+						<a href="#" class="social-icon inst"></a>
+					</div>
+					</div>
+					<div class="icon like"></div>
+				</div>
+			</div>
+			<div class="offer-item">
+				<div class="product-content">
+					<h4 class="product-header">Незаменимые аминокислоты Ultimate Nutrition Amino 2002</h4>
+					<span class="price-old">2 890 Р</span>
+					<span class="price-new">2 000 Р</span>
+					<div class="button-add">В корзину</div>
+					<p class="product-desc">Содержит только натуральные аминокислоты из 100% сывороточного протеина.</p>
+				</div>
+				<img src="img/product-2.png" alt="" class="product-image">
+				<div class="product-footer">
+					<div class="icon compare"></div>
+					<div class="icon share">
+						<div class="catalog-social" style="display: none">
+						<a href="#" class="social-icon vk"></a>
+						<a href="#" class="social-icon fb"></a>
+						<a href="#" class="social-icon inst"></a>
+					</div>
+					</div>
+					<div class="icon like"></div>
+				</div>
+			</div>
+			<div class="offer-item">
+				<div class="product-content">
+					<h4 class="product-header">Незаменимые аминокислоты Ultimate Nutrition Amino 2002</h4>
+					<span class="price-old">2 890 Р</span>
+					<span class="price-new">2 000 Р</span>
+					<div class="button-add">В корзину</div>
+					<p class="product-desc">Содержит только натуральные аминокислоты из 100% сывороточного протеина.</p>
+				</div>
+				<img src="img/product-2.png" alt="" class="product-image">
+				<div class="product-footer">
+					<div class="icon compare"></div>
+					<div class="icon share">
+						<div class="catalog-social" style="display: none">
+						<a href="#" class="social-icon vk"></a>
+						<a href="#" class="social-icon fb"></a>
+						<a href="#" class="social-icon inst"></a>
+					</div>
+					</div>
+					<div class="icon like"></div>
+				</div>
+			</div>
+		</div>
+		<div class="button see-all">Смотреть все предложения</div>
+	</div>
+	<!-- offers end -->
+	<!-- form start -->
+	<div class="form">
+		<h3>Нужна консультация?</h3>
+		<p>Запишитесь на бесплатную консультацию специалиста по спортивному питанию</p>
+		<div class="wrapper">
+			<form action="#">
+				<div class="field-wrap">
+					<div class="col-first">
+						<input type="text" name="" placeholder="Ваше имя"><br>
+						<input type="tel" name="" placeholder="Номер телефона">
+					</div>
+					<textarea name="" placeholder="Ваше сообщение"></textarea>
+				</div>
+				<input type="submit" class="form-send" value="Отправить" name="">
+			</form>
+		</div>
+	</div>
+	<!-- form end -->
+	<!-- bottom-text start -->
+	<div class="bottom-text">
+		<div class="wrapper">
+			<div class="text-field">
+				<p>Спорт требует максимального внимания даже к незначительным деталям. Что уж говорить об одежде и сопутствующих аксессуарах, от грамотного выбора которых во многом зависит не только качество тренировок и их итоговый результат, но и безопасность спортсмена, а также его здоровье.</p>
+				<p>Одежда и экипировка – на что обратить внимание при выборе</p>
+				<p>Занятие спортом обязательно должно быть человеку в радость – во время тренировок нежелателен даже незначительный дискомфорт. Форма должна быть практичной и удобной, предпочтение стоит отдать тканям на натуральной основе, выбор в пользу синтетических и искусственных материалов крайне нежелателен. Более всего для спорта подходит хлопковая</p>
+				<p>Но одной лишь спортивной формой дело не обходится. Для тренировок важно подобрать и соответствующие аксессуары, с помощью которых можно не только улучшить качество тренировок, но и сделать их более комфортными и безопасными.</p>
+				<p>В первую очередь речь идёт о вспомогательных компонентах, таких как шейкеры и всевозможнейшие бутылочки, в которых так удобно хранить и готовить разного рода коктейли и витаминные добавки, без которых не обходится ни одно занятие.  Для тренировок важно подобрать и соответствующие аксессуары, с помощью которых можно не только улучшить качество тренировок, но и сделать их более комфортными и безопасными.</p>
+				<p>Выбор зависит от пожеланий конкретного пользователя и тех упражнений, которые он</p>
+				</div>
+			<div class="widget-field">
+				<img src="img/vk-widget.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- bottom-text end -->
+	<!-- footer start -->
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="category category-bearprotein">
+				<p class="category-header">Bearprotein</p>
+				<ul>
+					<li><a href="#">О магазине</a></li>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Консультации</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">База знаний</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="category category-brands">
+				<p class="category-header">Бренды</p>
+				<ul>
+					<li><a href="#">Activlab</a></li>
+					<li><a href="#">APS nutrition</a></li>
+					<li><a href="#">Be First</a></li>
+					<li><a href="#">Cloma Pharma</a></li>
+					<li><a href="#">Cybermass</a></li>
+					<li><a href="#">Dragon Pharma</a></li>
+					<li><a href="#">Dymataize Nutrition</a></li>
+					<li><a href="#">Cмотреть все</a></li>
+				</ul>
+			</div>
+			<div class="category category-catalog">
+				<p class="category-header">Каталог товаров</p>
+				<ul>
+					<li><a href="#">Протеины</a></li>
+					<li><a href="#">Гейнеры</a></li>
+					<li><a href="#">Креатин</a></li>
+					<li><a href="#">Омега и жирные кислоты</a></li>
+					<li><a href="#">Спортивные напитки</a></li>
+					<li><a href="#">Жиросжигатели</a></li>
+					<li><a href="#">Связки и суставы</a></li>
+					<li><a href="#">Анаболические комплексы</a></li>
+				</ul>
+			</div>
+			<div class="category category-shop">
+				<p class="category-header">Магазин №1</p>
+				<ul>
+					<li>г. Сургут, Югорский тракт, 38</li>
+					<li>ТРЦ "Сургут Сити Молл"</li>
+					<li class="phone">+7 (12345) 206-256</li>
+				</ul>
+				<p class="category-header">Магазин №2</p>
+				<ul>
+					<li>г. Сургут, Нефтеюганское </li>
+					<li>шоссе, 1 ТРЦ "Аура"</li>
+					<li class="phone">+7 (12345) 935-808</li>
+				</ul>
+			</div>
+			<div class="category category-connection">
+				<p class="category-header">Получать новости</p>
+				<ul>
+					<li>Подписаться на рассылку</li>
+				</ul>
+				<form action="" class="subscribe">
+					<button type="submit" class="add">
+						<img src="img/footer-add-email.png" alt="">
+					</button>
+					<input type="email" placeholder="Ваш Email" name="">
+				</form>
+				<!-- <input type="email" placeholder="Ваш Email" name=""> -->
+				<p class="category-header">Мы в соцсетях</p>
+				<a href="#" class="social vk"></a>
+				<a href="#" class="social inst"></a>
+				<a href="#" class="social youtube"></a>
+			</div>
+		</div>
+	</footer>
+	<div class="copyright">
+		<div class="wrapper">
+			&copy; 2017 bearprotein.ru
+			<a href="#top"><img class="up" src="./img/up.png" alt=""></a>
+		</div>
+	</div>
+	<!-- footer end -->
+	<!-- hidden-menu start -->
+	<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+	<label class="btn-menu" for="hmt">
+		<span class="first"></span>
+		<span class="second"></span>
+		<span class="third"></span>
+	</label>
+	<ul class="hidden-menu">
+		<li><a href="">Каталог товаров</a></li>  
+		<li><a href="">Ваша цель</a></li>
+		<li><a href="">Бренды</a></li>
+		<li><a href="">Команда</a></li>
+		<li><a href="">Фото</a></li>
+		<li><a href="">Видео</a></li>
+		<hr>
+		<li class="bottom-menu"><a href="">О магазине</a></li>
+		<li><a href="">Доставка и оплата</a></li>
+		<li><a href="">Консультации</a></li>
+		<li><a href="">Новости</a></li>
+		<li><a href="">База знаний</a></li>  
+		<li><a href="">Контакты</a></li>
+		<form action="search">
+			<button type="submit" class="search-btn">
+				<img src="img/search.png" alt="">
+			</button>
+			<input type="text" class="search-input">
+		</form> 
+	</ul>
+	<!-- hidden-menu end -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
