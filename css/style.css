@@ -1717,6 +1717,7 @@ html, body {
 /* footer */
 .footer {
   background: url(../img/wood-bg.jpg);
+  background-size: cover;
   height: 233px; }
   .footer .wrapper {
     width: 67.5%;
